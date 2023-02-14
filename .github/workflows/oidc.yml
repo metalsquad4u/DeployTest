@@ -37,9 +37,9 @@ jobs:
         run: 'sudo npm install -g aws-cdk && sudo npm install -g aws-cdk-lib'
      
       - name: CDK Synth
-        run: cdk synth GithubOidcStack
+        run: cdk synth DeployTestStack
         working-directory: ./
 
       - name: CDK Deploy
-        run: cdk deploy --require-approval never GithubOidcStack
+        run: cdk deploy --require-approval never DeployTestStack
         working-directory: ./
