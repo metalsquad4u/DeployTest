@@ -12,7 +12,7 @@ jobs:
       id: open-pr
       uses: repo-sync/pull-request@v2
       with:
-        source_branch: ""                                 # If blank, default: triggered branch
+        source_branch: ""                                 # If blank, default: triggered branches
         destination_branch: "main"
         pr_title: Testing another PR
         pr_body: |
