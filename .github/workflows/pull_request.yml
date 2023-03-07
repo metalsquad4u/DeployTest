@@ -14,9 +14,9 @@ jobs:
       with:
         source_branch: ""                                 # If blank, default: triggered branch
         destination_branch: "main"
-        pr_title: "Testing another PR"
+        pr_title: Testing another PR
         pr_body: |
-          "I want to test merging from feature branch to main by 2nd PR"
+          I want to test merging from feature branch to main by 2nd PR
         #pr_reviewer: "YAbdul"                             # Comma-separated list (no spaces )
         pr_assignee: "metalsquad4u"                         # Comma-separated list (no spaces)
         pr_label: "oracle 2"                               # Comma-separated list (no spaces)
